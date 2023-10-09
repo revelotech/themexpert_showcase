@@ -8,27 +8,35 @@ class AppTheme extends BaseTheme {
     super.context,
   );
 
-  Color get primaryColorDark03 => AppColors.tealDark03;
+  Color get primaryColorDark03 =>
+      darkMode ? AppColors.tealLight01 : AppColors.tealDark03;
 
-  Color get primaryColorDark02 => AppColors.tealDark02;
+  Color get primaryColorDark02 =>
+      darkMode ? AppColors.tealLight02 : AppColors.tealDark02;
 
-  Color get primaryColorDark01 => AppColors.tealDark01;
+  Color get primaryColorDark01 =>
+      darkMode ? AppColors.tealLight01 : AppColors.tealDark01;
 
   Color get primaryColor => AppColors.tealBase;
 
-  Color get primaryColorLight01 => AppColors.tealLight01;
+  Color get primaryColorLight01 =>
+      darkMode ? AppColors.tealDark01 : AppColors.tealLight01;
 
-  Color get primaryColorLight02 => AppColors.tealLight02;
+  Color get primaryColorLight02 =>
+      darkMode ? AppColors.tealDark02 : AppColors.tealLight02;
 
-  Color get primaryColorLight03 => AppColors.tealLight03;
+  Color get primaryColorLight03 =>
+      darkMode ? AppColors.tealDark03 : AppColors.tealLight03;
 
   Color get surfaceColor => primaryColorLight03;
 
   Color get featuredColor => primaryColor;
 
-  Color get highEmphasisTextColor => AppColors.neutralBase;
+  Color get highEmphasisTextColor =>
+      darkMode ? AppColors.neutralBlank : AppColors.neutralBase;
 
-  Color get mediumEmphasisTextColor => AppColors.neutralLight01;
+  Color get mediumEmphasisTextColor =>
+      darkMode ? AppColors.neutralBlank : AppColors.neutralLight01;
 
   TextStyle get txBody => AppTypography.baseText.copyWith(
         color: highEmphasisTextColor,

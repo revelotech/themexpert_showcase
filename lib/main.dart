@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return ThemeXConfiguration(
-      darkMode: false,
+      darkMode: isDarkMode,
       builder: (context) => ThemeXWrapper(
         theme: AppTheme(context),
         builder: (context) => MaterialApp(
