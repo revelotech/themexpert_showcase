@@ -9,24 +9,24 @@ class AppTheme extends BaseTheme {
   );
 
   Color get primaryColorDark03 =>
-      darkMode ? AppColors.tealLight01 : AppColors.tealDark03;
+      darkMode ? AppColors.salmonLight03 : AppColors.salmonDark03;
 
   Color get primaryColorDark02 =>
-      darkMode ? AppColors.tealLight02 : AppColors.tealDark02;
+      darkMode ? AppColors.salmonLight02 : AppColors.salmonDark02;
 
   Color get primaryColorDark01 =>
-      darkMode ? AppColors.tealLight01 : AppColors.tealDark01;
+      darkMode ? AppColors.salmonLight01 : AppColors.salmonDark01;
 
-  Color get primaryColor => AppColors.tealBase;
+  Color get primaryColor => AppColors.salmonBase;
 
   Color get primaryColorLight01 =>
-      darkMode ? AppColors.tealDark01 : AppColors.tealLight01;
+      darkMode ? AppColors.salmonDark01 : AppColors.salmonLight01;
 
   Color get primaryColorLight02 =>
-      darkMode ? AppColors.tealDark02 : AppColors.tealLight02;
+      darkMode ? AppColors.salmonDark02 : AppColors.salmonLight02;
 
   Color get primaryColorLight03 =>
-      darkMode ? AppColors.tealDark03 : AppColors.tealLight03;
+      darkMode ? AppColors.salmonDark03 : AppColors.salmonLight03;
 
   Color get surfaceColor => primaryColorLight03;
 
