@@ -1,16 +1,6 @@
-# themexpert_showcase
+# ThemeXpert showcase
 
-A new Flutter project.
+## Useful Links
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Figma](https://www.figma.com/file/TqfUxCJQ7hOsJmpxl9AtjG/DevFest-2023-Tampa?type=design&node-id=0%3A1&mode=design&t=smXiz65CEuuEiO9B-1)
+- [FlutLab - Initial State](https://flutlab.io/sandbox/b1b65a19-3663-47a3-8ef2-5d399761b4d5)
